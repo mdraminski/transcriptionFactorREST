@@ -1,0 +1,32 @@
+#download methylation data
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA01.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA02.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA03.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA04.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA05.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA06.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA07.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB01.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB02.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB03.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB04.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB05.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB06.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB07.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB08.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB09.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB10.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/GB14.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/PA01.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/PA02.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/PA03.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/PA04.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/PA05.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/PA06.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/PA07.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/PG11.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/NB2.methylation_results.bed.gz;
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/NB3.methylation_results.bed.gz;
+#download RNA Seq data
+wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/symfonia_expression_data.csv.gz;
+gunzip *.gz;

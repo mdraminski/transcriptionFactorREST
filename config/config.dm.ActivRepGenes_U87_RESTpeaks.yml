@@ -1,0 +1,21 @@
+project_name: "ActivRepGenes_motifs"
+project_path: "results/"
+input_regions_path: "config/Motifs_ActivReprGenes.bed"
+input_data_path: "data/"
+input_data_def_path: "config/input_data_def.csv"
+input_expression_data_path: "data/symfonia_expression_data.csv"
+
+hgnc: FALSE
+overwrite_results: TRUE
+cyto_regions_find: FALSE
+add_TSS_promoter: FALSE
+TSS_promoter_upstream: 2000
+TSS_promoter_downstream: 2000
+intersect_strand_specific: FALSE
+use_gene_expression_data: FALSE
+meth_cut_poins: [0.2,0.6]
+pval_max: 0.05
+pval_corr: "fdr"
+cyto_regions_max_distance: 3
+min_coverage: 10
+plot_format: "png"
