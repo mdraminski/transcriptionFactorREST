@@ -39,9 +39,9 @@ The project cosists of several folders that contain R source code to run some pa
 # Authors
 The paper and related set of scripts has been created and implemented by:
 
-- Małgorzata Perycz [1,2] (author) ()
+- Małgorzata Perycz [1,2] (author)
 - Michal J. Dabrowski [2] (author, developer, maintainer)
-- Marta Jardanowska [2] (author)
+- Marta Jardanowska [2] (author, developer, maintainer)
 - Adria-Jaume Roura [1] (author, developer, maintainer)
 - Bartlomiej Gielniewski [1] (author)
 - Karolina Stepniak [1] (author)
