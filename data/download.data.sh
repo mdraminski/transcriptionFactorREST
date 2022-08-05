@@ -1,4 +1,4 @@
-#download methylation data
+#download methylation data files
 wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA01.methylation_results.bed.gz;
 wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA02.methylation_results.bed.gz;
 wget -c http://zbo.ipipan.waw.pl/tools/Symfonia/data/DA03.methylation_results.bed.gz;
